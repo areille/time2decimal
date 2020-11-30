@@ -4,7 +4,7 @@ extern crate clap;
 use std::process;
 
 pub fn convert(hours: u32, minutes: u32, seconds: u32) -> f32 {
-    hours as f32 + minutes as f32 * 1. / 60. + seconds as f32 * 1. / 3600.
+    hours as f32 + minutes as f32 / 60. + seconds as f32 / 3600.
 }
 
 fn main() {
