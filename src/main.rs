@@ -43,12 +43,12 @@ fn main() {
             process::exit(1);
         });
 
+    let hours_in_decimal = convert(hours, minutes, seconds);
+    let time_in_days = hours_in_decimal / 8.;
+
     println!(
-        "{}:{}:{} in decimal is {} hours",
-        hours,
-        minutes,
-        seconds,
-        convert(hours, minutes, seconds)
+        "{}:{}:{} in decimal is {} hours, or {} days",
+        hours, minutes, seconds, hours_in_decimal, time_in_days,
     );
 }
 
