@@ -8,7 +8,7 @@ pub fn convert(hours: u32, minutes: u32, seconds: u32) -> f32 {
 }
 
 fn main() {
-    let matches = clap_app!(time2decimal =>
+    let matches = clap_app!(t2d =>
         (version: "0.1.0")
         (author: "areille <areille@tuta.io>")
         (about: "Converts time to decimal")

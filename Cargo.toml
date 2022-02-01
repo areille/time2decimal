@@ -1,5 +1,5 @@
 [package]
-name = "time2decimal"
+name = "t2d"
 version = "0.1.0"
 authors = ["areille <areille@tuta.io>"]
 edition = "2018"
