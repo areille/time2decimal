@@ -44,7 +44,7 @@ fn main() {
         });
 
     let hours_in_decimal = convert(hours, minutes, seconds);
-    let time_in_days = hours_in_decimal / 8.;
+    let time_in_days = hours_in_decimal / 7.5;
 
     println!(
         "{}:{}:{} in decimal is {} hours, or {} days",
